@@ -20,11 +20,11 @@ Digital Twin of real life push-T task from Diffusion Policy: https://diffusion-p
 **Supported Robots: PandaStick (WIP UR5e)**
 
 **Randomizations:**
-- The 3D T block's initial center of mass is randomized in the region on the table: [-1,2] x [-1,1] + T Goal initial position. It is placed flat on the table
+- The 3D T block's initial center of mass is randomized in the region on the table: [-1,1] x [-1,2] + T Goal initial position. It is placed flat on the table
 - The 3D T block's initial z rotation is randomized in [0,2pi] around the center of mass of the block
 
 **Success Conditions:**
-- the 3D T block covers at least 90% of the 2D T goal zone
+- The 3D T block covers at least 90% of the 2D T goal zone
 :::
 
 <video preload="auto" controls="True" width="100%">
